@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/time_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="用时：01:59" />
+
+    <TextView
+        android:id="@+id/qustion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="题目" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/first_image1"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/first_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/first_image3"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/second_parent1"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/second_parent2"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/second_parent3"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/third_image1"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/third_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <ImageButton
+            android:id="@+id/third_image3"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+</LinearLayout>

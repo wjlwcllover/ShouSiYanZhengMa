@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/set"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/begin_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily=""
+        android:text="开始手撕"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#90ff"
+        android:textColorHighlight="#1ff"
+        android:background="#fff"
+        android:textSize="50dp" />
+
+    <ImageButton
+        android:id="@+id/screen"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+</RelativeLayout>
